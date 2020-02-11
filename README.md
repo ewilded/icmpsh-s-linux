@@ -9,4 +9,4 @@ might want to link it statically:
 
 Requires root, unless the user we would be running this on is allowed by the net.ipv4.ping_group_range /proc/sys/ setting (in such case just modify the source and rebuild). Works with e.g. the original icmpsh_m.py master (the original project linked above).
 
-![Screen](SCREEN.PNH?raw=true)
+![Screen](SCREEN.PNG?raw=true)
