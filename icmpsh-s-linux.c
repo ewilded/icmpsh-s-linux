@@ -71,7 +71,6 @@ int sock;
 int debug;
 unsigned char data[SEND_BUFF_SIZE];	
 
-FILE *shell;
 /* 
 	So basically an ICMP packet can be almost 65k bytes (MAX IP packet size - headers),
 	however in practice we need to stay under the lowest path MTU,
